@@ -1,5 +1,5 @@
 import { createTRPCRouter } from "~/server/api/trpc";
-import { blastRouter } from "~/server/api/routers/example";
+import { blastRouter } from "~/server/api/routers/blast";
 
 /**
  * This is the primary router for your server.

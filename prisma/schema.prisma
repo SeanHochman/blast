@@ -16,6 +16,7 @@ model Blast {
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   likes     Like[]
 
+  @@unique([createdAt, id])
   @@index([userId])
 }
 

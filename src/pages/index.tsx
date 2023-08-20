@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import { NewBlastForm } from "~/components/NewBlastForm";
+import { RecentBlasts } from "~/components/RecentBlasts";
 
 const Home: NextPage = () => {
   return (
@@ -8,6 +9,7 @@ const Home: NextPage = () => {
         <h1 className="mb-2 px-4 text-lg font-bold">Home</h1>
       </header>
       <NewBlastForm />
+      <RecentBlasts />
     </>
   );
 };
